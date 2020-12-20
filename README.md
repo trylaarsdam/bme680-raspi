@@ -4,8 +4,9 @@
 pip3, adafruit-circuitpython-bme680, board, busio
 
 ### Usage
-Install dependencies using pip3 and if wanted a venv
+1. Install dependencies using pip3 and if wanted a venv. 
 
-Run `python3 main.py`
+2. Run `python3 main.py`
 
-Looks for BME680 sensor at I2C address `0x77`. This is the default address for the adafruit model
+### Supported Platforms
+Tested to work on a Raspberry Pi 3B v1.2. Looks for a BME680 at I2C address `0x77`. That is the default address for the adafruit model. Uses the default SCL and SDA pins on the raspi.
